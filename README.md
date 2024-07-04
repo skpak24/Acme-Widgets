@@ -11,7 +11,7 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
 
 ## Installation
 
-* Python and Vue.js are required.
+* Python, Node.js (npm) and Vue.js are required.
 
 1. Clone the repo
    ```sh
