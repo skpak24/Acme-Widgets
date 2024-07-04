@@ -31,5 +31,5 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    ```
 5. Run the Vue.js server in a second terminal (still at the root directory)
    ```sh
-   npm run dev
+   npm run dev -- --port 1993
    ```
