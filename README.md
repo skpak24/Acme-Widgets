@@ -34,6 +34,7 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    source virtual/Scripts/activate
 
    pip install -r requirements.txt
+   npm install
    ```
 4. Run the backend API
    ```sh
