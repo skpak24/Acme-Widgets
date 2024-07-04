@@ -22,33 +22,27 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    cd Acme-Widgets
    ```
 3. Create and enter a virtual environment
-   For Mac:
    ```sh
    python -m venv virtual
+   
+   # For Mac:
    source virtual/bin/activate
+   # For Windows: Command Prompt or PowerShell
+   .\virtual\Scripts\activate
+   # ForWindows: Git Bash or other Unix-like shells
+   source virtual/Scripts/activate
+
    pip install -r requirements.txt
    ```
-   For Windows:
-   ```sh
-   python -m venv env
-   # for Command Prompt or PowerShell
-   .\env\Scripts\activate
-   # for Git Bash or other Unix-like shells on Windows
-   source env/Scripts/activate
-   ```
-4. Download necessary reuirements
-   ```sh
-   pip install -r requirements.txt
-   ```
-5. Run the backend API
+4. Run the backend API
    ```sh
    python app.py
    ```
-6. In a second terminal, run the Vue.js server while in the root directory
+5. In a second terminal, run the Vue.js server while in the root directory
    ```sh
    npm run dev -- --port 1993
    ```
-7. Access the web app with the following command:
+6. Access the web app with the following command:
    ```sh
    http://localhost:1993/
    ```
