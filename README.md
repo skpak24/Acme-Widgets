@@ -33,7 +33,7 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    ```sh
    npm run dev -- --port 1993
    ```
-6. Access the web app
+6. Access the web app with the following command:
    ```sh
    http://localhost:1993/
    ```
