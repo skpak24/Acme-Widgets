@@ -1,7 +1,7 @@
 # Acme-Widgets
 Coding Challenge for Innovative Refrigeration Systems
 
-# Introduction
+## Introduction
 This repo is a web application coding challenge for Innovative Refrigeration Systems. The web app is a Single Page Application created with Vue.js (frontend), Flask (backend), and SQLite (storage). The app is designed to assist Acme Widgets, Inc. with recording Job Hazard Analysis (JHA).
 
 - The app allows users to create, view, update, and delete JHA's.
@@ -9,7 +9,7 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
 - Users are able to choose any number of steps to add to their JHA. All parts of the form are required.
 - All submitted data are saved in a SQLite database.
 
-# Installation
+## Installation
 
 * Python and Vue.js are required.
 
