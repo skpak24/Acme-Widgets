@@ -21,7 +21,7 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    ```sh
    cd Acme-Widgets
    ```
-3. Create and enter a virtual environment
+3. Create a virtual environment, enter it, and install necessary requirements
    ```sh
    python -m venv virtual
    
