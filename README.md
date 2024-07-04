@@ -11,35 +11,44 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
 
 ## Installation
 
-* Python, Node.js (npm) and Vue.js are required.
+* Python, Node.js, and Vue.js are required to properly run the web application.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/skpak24/Acme-Widgets
+   git clone https://github.com/skpak24/Acme-Widgets Acme-Widgets
    ```
 2. Enter the project's root directory
    ```sh
    cd Acme-Widgets
    ```
-3. For Mac: Enter the given virtual environment
+3. Create and enter a virtual environment
+   For Mac:
    ```sh
-   source myenv/bin/activate
-   ```
-
-(For Windows: You will have to create a new virtual environment, enter it, and download the requirements)
-  ```sh
+   python -m venv virtual
+   source virtual/bin/activate
    pip install -r requirements.txt
    ```
-   
-4. Run the backend API
+   For Windows:
+   ```sh
+   python -m venv env
+   # for Command Prompt or PowerShell
+   .\env\Scripts\activate
+   # for Git Bash or other Unix-like shells on Windows
+   source env/Scripts/activate
+   ```
+4. Download necessary reuirements
+   ```sh
+   pip install -r requirements.txt
+   ```
+5. Run the backend API
    ```sh
    python app.py
    ```
-5. In a second terminal, run the Vue.js server while in the root directory
+6. In a second terminal, run the Vue.js server while in the root directory
    ```sh
    npm run dev -- --port 1993
    ```
-6. Access the web app with the following command:
+7. Access the web app with the following command:
    ```sh
    http://localhost:1993/
    ```
