@@ -36,5 +36,5 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    
 # Help
 
-* One time I opened the database file (jobs.db) and then the database got corrupted so you should probably avoid that
+* One time I opened the database file (jobs.db) and then the database got massively corrupted so you should probably avoid that
 
