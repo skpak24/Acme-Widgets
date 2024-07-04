@@ -33,8 +33,8 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    ```sh
    npm run dev -- --port 1993
    ```
-   
-# Help
-
-* One time I opened the database file (jobs.db) and then the database got massively corrupted so you should probably avoid that
+6. Access the web app
+   ```sh
+   http://localhost:1993/
+   ```
 
