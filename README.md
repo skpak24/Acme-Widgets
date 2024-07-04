@@ -27,9 +27,9 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    
    # For Mac:
    source virtual/bin/activate
-   # For Windows: Command Prompt or PowerShell
+   # For Windows - Command Prompt or PowerShell
    .\virtual\Scripts\activate
-   # ForWindows: Git Bash or other Unix-like shells
+   # For Windows - Git Bash or other Unix-like shells
    source virtual/Scripts/activate
 
    pip install -r requirements.txt
