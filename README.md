@@ -21,10 +21,16 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    ```sh
    cd Acme-Widgets
    ```
-3. Enter the given virtual environment
+3. For Mac: Enter the given virtual environment
    ```sh
    source myenv/bin/activate
    ```
+
+(For Windows: You will have to create a new virtual environment, enter it, and download the requirements)
+  ```sh
+   pip install -r requirements.txt
+   ```
+   
 4. Run the backend API
    ```sh
    python app.py
