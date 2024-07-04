@@ -37,4 +37,17 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    ```sh
    http://localhost:1993/
    ```
+   
+## Help
+
+* Although Flask and Flask_Cors are within the virtual environment, you may need to redownload these modules:
+   ```sh
+   pip install flask
+   ```
+   ```sh
+   pip install flask_cors
+   ```
+
+
+
 
