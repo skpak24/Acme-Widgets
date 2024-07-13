@@ -5,7 +5,9 @@ Coding Challenge for Innovative Refrigeration Systems
 This repo is a web application coding challenge for Innovative Refrigeration Systems. The web app is a Single Page Application created with Vue.js (frontend), Flask (backend), and SQLite (storage). The app is designed to assist Acme Widgets, Inc. with recording Job Hazard Analysis (JHA).
 
 - The app allows users to create, view, update, and delete JHA's.
-- JHA's contain a title, author, and any number of steps, with each step having a spot for description, hazards, and mitigation.
+- JHA's contain a title, author, and any number of steps
+   - Each step must have a description and one or more hazards
+   - Each hazard must have one or more forms of mitigation
 - Users are able to choose any number of steps to add to their JHA. All parts of the form are required.
 - All submitted data is saved in a local SQLite relational database.
 - The app also provides answers to common JHA questions; credit goes to the University of Washington's EHS website.
