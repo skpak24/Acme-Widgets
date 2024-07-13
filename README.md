@@ -7,7 +7,7 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
 - The app allows users to create, view, update, and delete JHA's.
 - JHA's contain a title, author, and any number of steps, with each step having a spot for description, hazards, and mitigation.
 - Users are able to choose any number of steps to add to their JHA. All parts of the form are required.
-- All submitted data is saved in a local SQLite database. 
+- All submitted data is saved in a local SQLite relational database.
 - The app also provides answers to common JHA questions; credit goes to the University of Washington's EHS website.
 
 ## Installation
@@ -44,7 +44,7 @@ This repo is a web application coding challenge for Innovative Refrigeration Sys
    ```sh
    npm run dev -- --port 1993
    ```
-6. Access the web app with the following command:
+6. Access the local server at:
    ```sh
    http://localhost:1993/
    ```
